@@ -16,7 +16,14 @@ module.exports = withPWA({
   },
   i18n,
   images: {
-    domains: ['centralapps.hivefinty.com', 'iwalewah-demo.netlify.app',], // Added this line
+    domains: ['centralapps.hivefinty.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'centralapps.hivefinty.com',
+        pathname: '/v1/storage/buckets/**', // Allow all storage images
+      },
+    ],
   },
   ...(process.env.NODE_ENV === 'production' && {
     typescript: {

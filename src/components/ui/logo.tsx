@@ -14,12 +14,12 @@ const Logo: React.FC<React.AnchorHTMLAttributes<{}>> = ({
       className={cn('inline-flex focus:outline-none', className)}
       {...props}
     >
-      <Image
+      <img
         src={siteSettings.logo.url}
         alt={siteSettings.logo.alt}
         height={siteSettings.logo.height}
         width={siteSettings.logo.width}
-        layout="fixed"
+        // layout="fixed"
         loading="eager"
         className="object-contain"
       />

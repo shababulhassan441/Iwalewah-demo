@@ -16,7 +16,7 @@ module.exports = withPWA({
   },
   i18n,
   images: {
-    domains: ['centralapps.hivefinty.com', 'netlify.app',], // Added this line
+    domains: ['centralapps.hivefinty.com', 'iwalewah-demo.netlify.app',], // Added this line
   },
   ...(process.env.NODE_ENV === 'production' && {
     typescript: {

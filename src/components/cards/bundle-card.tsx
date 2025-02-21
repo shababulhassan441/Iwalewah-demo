@@ -35,7 +35,7 @@ const BundleCard: React.FC<Props> = ({
         style={{ backgroundColor: bgColor }}
       >
         <div className={cn('flex shrink-0', thumbnailClassName)}>
-          <Image
+          <img
             src={image ?? '/assets/placeholder/collection.svg'}
             alt={t(title) || t('text-card-thumbnail')}
             width={imgWidth}

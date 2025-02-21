@@ -30,7 +30,7 @@ export const siteSettings = {
     url: '/assets/images/White-Logo-Purplebg.png',
     alt: 'Walewah',
     href: '/',
-    width: 150,
+    width: 100,
     height: 80,
   },
   purpleLogo: {

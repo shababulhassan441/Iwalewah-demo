@@ -148,7 +148,7 @@ const CategoryFilterMenuItem: React.FC<CategoryFilterMenuItemProps> = ({
         >
           {item.icon && (
             <div className="inline-flex shrink-0 ltr:mr-2.5 rtl:ml-2.5 md:ltr:mr-4 md:rtl:ml-4">
-              <Image
+              <img
                 src={item.icon}
                 alt={item.name || t('text-category-thumbnail')}
                 width={40}

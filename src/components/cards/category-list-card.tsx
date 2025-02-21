@@ -46,7 +46,7 @@ const CategoryListCard: React.FC<Props> = ({
               '2xl:w-12 3xl:w-auto 2xl:h-12 3xl:h-auto': variant === 'default',
             })}
           >
-            <Image
+            <img
               src={icon || '/assets/placeholder/category-small.svg'}
               alt={name || t('text-category-thumbnail')}
               width={40}
